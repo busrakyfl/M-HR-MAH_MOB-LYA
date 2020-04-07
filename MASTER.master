@@ -1,0 +1,108 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MASTER.master.cs" Inherits="MASTER" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <link href="StyleSheet.css" rel="stylesheet" type="text/css" />
+    <title></title>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+   
+    <style type="text/css">
+        .style1
+        {
+            font-family: Orbitron;
+            width:400px;
+            float:left;
+        }
+        .style2
+        {
+            text-align: right;
+            padding-right:10px;
+        }
+        .style3
+        {
+            text-decoration: none;
+            font-weight: 700;
+            color: #FFFFFF;
+            font-family: Candal;
+        }
+        .style4
+        {
+            color: #FFFFFF;
+        }
+        
+        
+        
+      
+        
+        
+        .style6
+        {
+            border-width: 0px;
+            width: 50px;
+            height: 50px;
+        }
+   
+        
+        .style7
+        {
+            text-align: center;
+        }
+   
+        
+        </style>
+   
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div id="logo"><div id="link"> <span class="style1">| <span class="style4"><strong>
+        <a class="style3" href="uyeol.aspx">Üye Ol</a></strong></span> | 
+        <span class="style4"><a class="style3" href="hakkimizda.aspx">Hakkımızda</a></span> | 
+        <a class="style3" href="iade.aspx"><span class="style4">Iade</span></a> |</span> </div>
+        
+    <strong style="font-family: Orbitron; font-size: 80px; width:600px; float:right;">
+        <div class="style2">
+            Mihrimah</div>
+        </strong>
+    
+
+    
+    
+   &nbsp;</div>
+    <div class="menu">
+    <ul>
+    <li><a href="Slayt.aspx">Anasayfa</a></li>
+    <li><a href="uyegiris.aspx">Üye Giris</a></li>
+    <li><a href="hakkimizda.aspx">Hakkımızda</a></li>
+    <li><a href="iletisim.aspx">Iletisim</a></li>
+    <li><a href="urun_urun.aspx">Ürünler</a></li>
+    <li><a href="iade.aspx">Iade</a></li>
+    <li><a href="yonetim.aspx">Yönetim</a></li>
+    </ul>
+    </div>
+    <div id="icerik2">
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+  </div>
+    <div id="adres" class="style7">
+        <img src="img/kredi.png" />
+        <br />
+       
+         
+                    <a href="https://www.facebook.com/">
+                    <img alt="" class="style6" src="img/facebook.png" /></a>
+             
+                    <a href="https://www.instagram.com/">
+                    <img alt="" class="style6" src="img/istgram.png" /></a>
+              
+                    <a href="https://twitter.com/?lang=tr">
+                    <img alt="" class="style6" src="img/twiter.png" /></a>
+                
+        
+    </div>
+    </form>
+</body>
+</html>

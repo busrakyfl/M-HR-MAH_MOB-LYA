@@ -1,0 +1,144 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="mihrimah_m" Class="DataClassesDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="WebSettings" ConnectionString="Data Source=BUSRAK\SQLEXPRESS;Initial Catalog=mihrimah_m;Integrated Security=True" SettingsObjectName="System.Configuration.ConfigurationManager.ConnectionStrings" SettingsPropertyName="mihrimah_mConnectionString1" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.banyo" Member="banyos">
+    <Type Name="banyo">
+      <Column Name="id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="no" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="m_adi" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="m_resim_yolu" Type="System.String" DbType="NVarChar(200)" CanBeNull="true" />
+      <Column Name="m_boyut" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="m_renk" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="agac_cinsi" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="fiyat" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="indirim_fiyat" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="kategori" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.cocuk_odasi" Member="cocuk_odasis">
+    <Type Name="cocuk_odasi">
+      <Column Name="id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="no" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="m_adi" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="m_resim_yolu" Type="System.String" DbType="NVarChar(200)" CanBeNull="true" />
+      <Column Name="m_boyut" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="m_renk" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="kumas_adi" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="kumas_renk" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="kumas_resim_yolu" Type="System.String" DbType="NVarChar(200)" CanBeNull="true" />
+      <Column Name="agac_cinsi" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="fiyat" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="indirim_fiyat" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="kategori" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.cok_amacli" Member="cok_amaclis">
+    <Type Name="cok_amacli">
+      <Column Name="id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="no" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="m_adi" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="m_resim_yolu" Type="System.String" DbType="NVarChar(200)" CanBeNull="true" />
+      <Column Name="m_boyut" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="m_renk" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="kumas_adi" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="kumas_renk" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="agac_cinsi" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="fiyat" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="indirim_fiyat" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="kategori" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.mutfak" Member="mutfaks">
+    <Type Name="mutfak">
+      <Column Name="id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="no" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="m_adi" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="m_resim_yolu" Type="System.String" DbType="NVarChar(200)" CanBeNull="true" />
+      <Column Name="m_boyut" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="m_renk" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="kumas_adi" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="kumas_renk" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="kumas_resim_yolu" Type="System.String" DbType="NVarChar(200)" CanBeNull="true" />
+      <Column Name="agac_cinsi" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="fiyat" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="indirim_fiyat" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="kategori" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.oturma_odasi" Member="oturma_odasis">
+    <Type Name="oturma_odasi">
+      <Column Name="id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="no" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="m_adi" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="m_resim_yolu" Type="System.String" DbType="NVarChar(200)" CanBeNull="true" />
+      <Column Name="m_boyut" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="m_renk" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="kumas_adi" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="kumas_renk" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="agac_cinsi" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="fiyat" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="indirim_fiyat" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="kategori" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.urun" Member="uruns">
+    <Type Name="urun">
+      <Column Name="id" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="no" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="resim_yolu" Type="System.String" DbType="NVarChar(200)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.uyeol" Member="uyeols">
+    <Type Name="uyeol">
+      <Column Name="id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="ad" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="soyad" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="kullanici_adi" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="mail" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="telefon" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="parola" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="kredik_no" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="k_guvenlik_no" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="k_tipi" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.yatak_odasi" Member="yatak_odasis">
+    <Type Name="yatak_odasi">
+      <Column Name="id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="no" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="m_adi" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="m_resim_yolu" Type="System.String" DbType="NVarChar(200)" CanBeNull="true" />
+      <Column Name="m_boyut" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="m_renk" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="kumas_adi" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="kumas_renk" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="kumas_resim_yolu" Type="System.String" DbType="NVarChar(200)" CanBeNull="true" />
+      <Column Name="agac_cinsi" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="fiyat" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="indirim_fiyat" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="kategori" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.yemek_odasi" Member="yemek_odasis">
+    <Type Name="yemek_odasi">
+      <Column Name="id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="no" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="m_adi" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="m_resim_yolu" Type="System.String" DbType="NVarChar(200)" CanBeNull="true" />
+      <Column Name="m_boyut" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="m_renk" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="kumas_adi" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="kumas_renk" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="agac_cinsi" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="fiyat" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="indirim_fiyat" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="kategori" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.yonetici" Member="yoneticis">
+    <Type Name="yonetici">
+      <Column Name="id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="yonetici_adi" Type="System.String" DbType="NVarChar(25)" CanBeNull="true" />
+      <Column Name="parola" Type="System.String" DbType="NVarChar(25)" CanBeNull="true" />
+    </Type>
+  </Table>
+</Database>
